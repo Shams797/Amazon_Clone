@@ -1,0 +1,408 @@
+* {
+    margin:0;
+    border:border-box;
+}
+.header{
+    background-color: black;
+    height: 60px;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+
+.icon-bar{
+     
+    height: 50px;
+    width: 100px;
+}
+
+.icon{
+    background-image: url("/Users/khusnawazhasan/Documents/Codeing/project/img/drive-download-20241106T192326Z-001/amazon_logo.png");
+    height:50px;
+    width: 100px;
+    background-size:cover;   
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/*  2 second icon */
+
+.nav-add{
+ padding:5px;
+    
+}
+
+.add-first{
+    color:#D6D6D6;
+    font-size:0.85rem;
+    margin-left:15px ;
+}
+
+.nav-icon{
+    display: flex;
+}
+
+.add-second{
+    color:#FFFFFF;
+    font-size:1em; 
+    margin-left:3px;
+}
+
+/* 3rd box */
+
+.nav-search{
+    display:flex;
+    background-color:pink;
+    width: 700px;
+    height: 40px;
+    justify-content: space-evenly;
+    border-radius:4px;
+}
+.nav-search:hover{
+    border:1.5px solid orange;
+}
+
+
+.search-list{
+    font-size:1rem;
+    background-color: #f3f3f3;
+    color:black;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-bar{
+    width:100%;
+    font-size:1rem;
+    border:none;
+    padding-left:7px;
+    
+}
+
+.search-icon{
+    display: flex;
+    width:45px;
+    background-color: #febd68;
+    justify-content:center;
+    align-items:center;
+    font-size:1.2rem;
+    /* border:solid 5px red; */
+
+}
+
+/* # 4th box */
+
+.country{
+    /* background-color:yellow; */
+    height: 30px;
+    width:65px;
+    display: flex;
+    align-items: flex-end;
+    /* border: 2px solid red; */
+}
+
+.flag-size{
+    height: 16px;
+    width: 38px;
+    background:1px solid red;
+}
+
+.flag{
+    height:16px;
+    width:100%;
+    background-image:url("/Users/khusnawazhasan/Documents/Codeing/project/img/drive-download-20241106T192326Z-001/Flag-India.webp");
+    background-size:cover ;
+}
+
+.language{
+    height: 16px;
+    width: 100%;
+    margin-left:4px;
+    border:none;
+
+}
+select{
+    background-color:black;
+    color:white;
+}
+
+/* 5th box */
+.hello{
+    font-size:0.8em;
+    margin-left:4px;
+}
+
+.nav-second{
+    font-size:1rem;
+    font-weight: 600;
+    border:none;
+    /* display: flex; */
+}
+
+/* 6th box */
+
+span{
+    font-size:0.8em;
+}
+
+
+/* 7th box */
+
+.cart i{
+    font-size:30px;
+}
+
+.cart{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+/* panel */
+
+.panel{
+    background-color: #222f3d;
+    color:white;
+    justify-content:space-evenly;
+    display: flex;
+    align-items:center;
+    height: 40px;
+}
+
+.panel-all{
+    justify-content: flex-start;
+    font-size: 1rem;
+    /* border:1px solid red; */
+}
+
+.panel-ops{
+    width:80%;
+    font-size:0.8rem;
+}
+
+.panel-ops p{
+    display: inline-block;
+    margin-left:20px;
+
+}
+
+.panel-deals{
+    font-size:0.9rem;
+    font-weight: 600 ;
+}
+
+/* Hero section */
+
+.hero{
+    background-image: url("/Users/khusnawazhasan/Documents/Codeing/project/img/drive-download-20241106T192326Z-001/hero_image.jpg");
+    height: 350px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+    object-fit:cover;
+    
+}
+
+.hero-msg{
+    background-color: white;
+    color:black;
+    width:80%;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:20px;
+    font-size:0.9rem;
+    object-fit: cover;
+}
+
+.hero-msg a{
+    color:#077185;
+}
+
+
+/* shop-section */
+
+.shoping-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+    flex-wrap:wrap;
+}
+
+.box{
+    height:320px;
+    width:23%;
+    background-color:white;
+    padding:20px 0px 15px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+
+}
+.box:hover{
+    transform:scale(1.08,1.08);
+}
+
+.box-size{
+    /* background-size:contain;
+    background-repeat:no-repeat; */
+    background-size:cover;
+    height: 220px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.box-content{
+    margin-left:1rem;
+    margin-right:1rem;
+}
+
+
+/* footer pannel */
+
+.footer-panel1{
+    display:flex;
+    background-color: #37475a;
+    color:white;
+    height: 50px;
+    justify-content:center;
+    align-items:center;
+    font-size: 0.9 rem;
+    margin-top:15px;
+}
+
+/* footer panel 2 */
+
+.footer-panel2{
+    background-color:#222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+ul  a{
+    display: block;
+    font-size:0.9rem;
+    margin-top:10px;
+    color:#dddddd;
+}
+
+ul {
+    margin-top:30px;
+
+}
+
+/* footer panel 3 */
+
+.footer-panel3{
+    background-color: #222f3d;
+    height:70px;
+    border-top:0.5px solid white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo{
+    background-image:url("/Users/khusnawazhasan/Documents/Codeing/project/img/drive-download-20241106T192326Z-001/amazon_logo.png");
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
+
+/* footer panel 4 */
+
+.footer-panel4{
+    background-color:#0f1111;
+    height:70px;
+    color: white;
+    text-align:center;
+    font-size:0.9rem;
+}
+
+
+.pages{
+   padding:10px;
+}
+
+.copy-right{
+
+}
+
+
+/* try */
+
+.sec{
+    background-color:#e2e7e6;
+    height: 450px;
+    display: flex;
+}
+
+.bo{
+    background-color:white;
+    height: 400px;
+    width: 23%;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.con{
+    margin-top:20px;
+
+}
+
+
+.img{
+    height:300px;
+    display: flex;
+    flex-wrap:wrap;
+    margin:10px 0px 0px;
+    justify-content: space-around;
+    /* border:2px solid red; */
+
+}
+
+.im1{
+    background-size:cover;
+    /* border:1px solid red; */
+    height: 140px;
+    width: 46%;
+}
+.im2{
+    background-size:cover;
+    height: 140px;
+    width: 46%;
+}
+.im3{
+    background-size:cover;
+    height: 140px;
+    width: 46%;
+}
+.im4{
+    background-size:cover;
+    height: 140px;
+    width: 46%;
+}
+
+.con h2{
+    margin-left:15px;
+}
+
+.con p{
+    margin-left:10px;
+}
+
+
